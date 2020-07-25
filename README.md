@@ -1,12 +1,12 @@
 # dym
-A tool that logs things like online players and chat messages sent on certain Minecraft servers by scraping their respective online [dymaps](https://github.com/webbukkit/dynmap/wiki). Dym was created with small servers in mind, so trying it on large servers might not work out too well since there's a large amount of stuff to log.
+A tool that logs things like online players and chat messages sent on certain Minecraft servers by scraping their respective online [dynmaps](https://github.com/webbukkit/dynmap/wiki). Dym was created with small servers in mind, so trying it on large servers might not work out too well since there's a large amount of stuff to log.
 
 [Selenium](https://pypi.org/project/selenium/) is the only dependency so far.
 
 ## How it works
 Dym uses selenium to create a headless browser instance (i.e. no GUI) to open the desired dynmap webpage, waits for everything on the page to load and then looks for text to log down on your local machine.
 
-As of right now it's quite barebones, it only logs online players and if you want it to use a browser other than Firefox you'll have to modify some of the code yourself.
+It's really barebones as of right now, only logging online players. If you want to have it use a browser other than Firefox you'll have to modify some of the code yourself.
 
 ## Planned features
 - Log chat
