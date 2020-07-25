@@ -19,4 +19,4 @@ It's really barebones as of right now, only logging online players. If you want 
 - Clean up the logging feed (so no dupes)
 
 ## Known issues
-- Browser instances don't ever get closed, so they keeps running in the background even in the event of a crash or when you terminate the script manually. You'll have to kill them manually for now (in Task Manager or by pid)
+- Browser instances don't ever get closed, so they keep running in the background even in the event of a crash or when you terminate the script manually. You'll have to kill them manually for now (in Task Manager or by pid)
